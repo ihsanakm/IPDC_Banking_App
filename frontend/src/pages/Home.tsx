@@ -1,4 +1,5 @@
 import Button from "../Components/Button";
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 const Home = () => {
@@ -154,28 +155,171 @@ const Home = () => {
         </div>
       </section>
       <section className="flex">
-        <div className="flex w-full h-full">
-          <img
-            src="./Picture.png"
-            alt="Description"
-            className="w-full h-auto"
-          />
+        <div className="">
+          <img src="./Picture.png" alt="Description" className="object-cover" />
         </div>
-        <div>
-          <h3>IPDC AT A GLANCE</h3>
-          <p>
-            IPDC Finance Limited (previously known as "Industrial Promotion and
-            Development Company of Bangladesh Limited") is the first private
-            sector financial institution of the country established in 1981 by a
-            distinguished group of shareholders namely International Finance
-            Corporation (IFC), USA, German Investment and Development Company
-            (DEG), Germany, The Aga Khan Fund for Economic Development (AKFED),
-            Switzerland, Commonwealth Development Corporation (CDC), UK and the
-            Government of Bangladesh
-          </p>
-          <a href="#">Hello</a>
+        <div className="pl-[110px] pt-[140px] ">
+          <div className="max-w-[460px]">
+            <h3 className="text-[32px] font-bold text-[#343434]">
+              IPDC AT A GLANCE
+            </h3>
+            <p className="text-[16px] font-medium text-[#676767] mt-3">
+              IPDC Finance Limited (previously known as "Industrial Promotion
+              and Development Company of Bangladesh Limited") is the first
+              private sector financial institution of the country established in
+              1981 by a distinguished group of shareholders namely International
+              Finance Corporation (IFC), USA, German Investment and Development
+              Company (DEG), Germany, The Aga Khan Fund for Economic Development
+              (AKFED), Switzerland, Commonwealth Development Corporation (CDC),
+              UK and the Government of Bangladesh
+            </p>
+            <a
+              href="#"
+              className="text-xl font-medium text-primary inline-flex mt-11"
+            >
+              Read More <img src="./rightArrow.svg" alt="" width={29} />
+            </a>
+          </div>
         </div>
       </section>
+      <section className="flex flex-col items-center bg-[#FEF9FC]">
+        <h4 className="mt-[106px] font-bold text-4xl">Our Services</h4>
+        <p className="mt-5 text-base font-medium text-[#999999]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus
+          mattis vel feugiat erat tortor eleifend.
+        </p>
+        <div className="flex gap-[50px] justify-center mt-16 mb-[130px]">
+          <div>
+            <img src="./Image.png"></img>
+            <a
+              href="#"
+              className="text-xl font-semibold text-[#363940] flex justify-between mt-5"
+            >
+              IPDC SAVING SCHEMES{" "}
+              <img src="./ArrowCircleRight.svg" alt="" width={29} />
+            </a>
+          </div>
+          <div>
+            <img src="./Image(1).png"></img>
+            <a
+              href="#"
+              className="text-xl font-semibold text-[#363940] flex justify-between mt-5"
+            >
+              IPDC Personal loan{" "}
+              <img src="./ArrowCircleRight.svg" alt="" width={29} />
+            </a>
+          </div>
+          <div>
+            <img src="./Image(2).png"></img>
+            <a
+              href="#"
+              className="text-xl font-semibold text-[#363940] flex justify-between mt-5"
+            >
+              IPDC Deposit schemes{" "}
+              <img src="./ArrowCircleRight.svg" alt="" width={29} />
+            </a>
+          </div>
+          <div>
+            <img src="./Image(3).png"></img>
+            <a
+              href="#"
+              className="text-xl font-semibold text-[#363940] flex justify-between mt-5"
+            >
+              IPDC auto loan{" "}
+              <img src="./ArrowCircleRight.svg" alt="" width={29} />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className="flex flex-col items-center">
+        <h5 className="text-4xl font-bold mt-28">
+          Our best results for the year
+        </h5>
+        <p className="font-medium text-base text-[#999999] mt-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus
+          mattis vel feugiat erat tortor eleifend.
+        </p>
+        <div className="grid grid-cols-4 gap-x-40 gap-y-12 mt-20 mb-28">
+          <div className="w-[140px]">
+            <p className="font-bold text-[40px] text-primary">
+              57.6 <span className="text-3xl">bn</span>{" "}
+            </p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              LOAN PORTFOLIO
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px]">0.95%</p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              CLASSIFIED LOAN PORTFOLIO
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px] ">388.5%</p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              CLASSIFIED LOAN Coverage
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px]">
+              50.4 <span className="text-3xl">bn</span>{" "}
+            </p>
+            <p className="text-[16x] font-medium text-[#676767]">Deposit</p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px] ">AAA</p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              Credit Rating
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px] ">
+              6.1 <span className="text-3xl">bn</span>{" "}
+            </p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              Shareholders equity
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px] ">18.51%</p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              Capital Adequacy Ratio
+            </p>
+          </div>
+          <div className="w-[140px]">
+            {" "}
+            <p className="font-bold text-[40px] ">
+              8.5 <span className="text-3xl">bn</span>{" "}
+            </p>
+            <p className="text-[16x] font-medium text-[#676767]">
+              Market Capitalization
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="flex flex-col items-center bg-[#FEF9FC]">
+        <h5 className="text-[36px] font-bold mt-[100px] ">Newsletter</h5>
+        <p className="text-[16px] text-[#999999] max-w-[410px] text-center mt-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ac quis
+          aliquam arcu lacus.
+        </p>
+        <div className="flex items-center gap-3 mt-[34px] mb-[116px]">
+          <input
+            type="email"
+            name="email"
+            className="mt-1 py-[8px] px-[20px] bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-primary block w-[343px] rounded-md sm:text-sm focus:ring-1"
+            placeholder="You email"
+          />
+          <Button text="Subscribe" customStyle="uppercase h-[39px]  mt-1" />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 };
